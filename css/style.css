@@ -1,0 +1,370 @@
+
+/* bootstrap-icons */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+/* 常用色 */
+:root {
+    --Primary-100:#F5FEE7;
+    --Primary-200:#E8FEC5;
+    --Primary-300:#C0FA73;
+    --Primary-400:#57A203;
+    --Primary-500:#477A11;
+    --Primary-100:#F5FEE7;
+    --Neutral-0:#FFFFFF;
+    --Neutral-100:#FFFFFF;
+    --Neutral-200:#E9ECEF;
+    --Neutral-300:#DEE2E6;
+    --Neutral-400:#CED4DA;
+    --Neutral-500:#ADB5BD;
+    --Neutral-600:#6C757D;
+    --Neutral-700:#495057;
+    --Neutral-800:#343A40;
+    --Neutral-900:#212529;
+    --Danger-300:#D74F4F;
+}
+
+
+/* 標籤的基本樣式 */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* *, *::before, *::after {
+    outline: 1px solid;
+} */
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    color: var(--Neutral-900);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: var(--Neutral-900);
+    font-weight: 500;
+}
+
+/* 
+a:hover {
+    color: ;
+} */
+
+.h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.h6 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.text-sm {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.text-primary-400 {
+    color: var(--Primary-400);
+}
+
+.text-danger-300 {
+    color: var(--Danger-300);
+}
+
+.bg-primary-200 {
+    background-color: var(--Primary-200);
+}
+
+.bg-neutral-100 {
+    background-color: var(--Neutral-100);
+}
+
+.bi {
+    vertical-align: bottom;
+}
+
+
+/* 通用樣式 */
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+/* .box {
+    width: 856px;
+    margin: 0 auto;
+} */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px 0;
+}
+
+.col-1 {
+    width: calc(100% / 12);
+    padding: 0 12px 0;
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+    padding: 0 12px 0;
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+    padding: 0 12px 0;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+    padding: 0 12px 0;
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+    padding: 0 12px 0;
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+    padding: 0 12px 0;
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+    padding: 0 12px 0;
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+    padding: 0 12px 0;
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+    padding: 0 12px 0;
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+    padding: 0 12px 0;
+}
+
+.col-11 {
+    width: calc(100% / 12 * 11);
+    padding: 0 12px 0;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 12px 0;
+}
+
+
+/* 間距樣式設定 */
+.p-12 {
+    padding: 12px;
+}
+
+.py-12 {
+    padding: 12px 0;
+}
+
+.py-16 {
+    padding: 16px 0;
+}
+
+.py-24 {
+    padding: 24px 0;
+}
+
+.py-32 {
+    padding: 32px 0;
+}
+
+.py-40 {
+    padding: 40px 0;
+}
+
+.py-48 {
+    padding: 48px 0;
+}
+
+.py-64 {
+    padding: 64px 0;
+}
+
+.me-8 {
+    margin-inline-end: 8px;
+}
+
+.me-12 {
+    margin-inline-end: 12px;
+}
+
+.me-24 {
+    margin-inline-end: 40px;
+}
+
+.me-40 {
+    margin-inline-end: 40px;
+}
+
+.me-48 {
+    margin-inline-end: 48px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mb-48 {
+    margin-bottom: 48px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+
+
+/* 元件 */
+
+.breadcrumb-items + .breadcrumb-items::before {
+    content: "/";
+    padding: 0 12px;
+    color: var(--Neutral-300);
+    font-weight: 700;
+}
+
+.breadcrumb-items {
+    display: flex;
+    font-weight: 500;
+}
+
+.breadcrumb-link {
+    color: var(--Neutral-600);
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.btn-dark {
+    color: var(--Neutral-0);
+    background-color: var(--Neutral-900);
+}
+
+.btn-light {
+    border: 1px solid var(--Neutral-900);
+}
+
+
+/* footer copyright */
+.copyright {
+    border-top: 1px solid var(--Neutral-300);
+    background: var(--Neutral-100);
+}
+.copyright p {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 5%;
+}
