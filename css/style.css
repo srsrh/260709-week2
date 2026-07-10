@@ -257,6 +257,10 @@ a:hover {
     padding: 64px 0;
 }
 
+.mx-12 {
+    margin-inline: 12px;
+}
+
 .me-8 {
     margin-inline-end: 8px;
 }
